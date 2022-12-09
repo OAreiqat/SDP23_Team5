@@ -15,7 +15,7 @@ class tag:
 
 ser = serial.Serial("COM9", 38400)
 tagsDict = dict()
-coasterId = "C404"
+coasterId = "8312"
 forwardSpeed = 0.5 # meter/second
 rotationSpeed = 10 # degrees/second
 def signal(val):
@@ -67,8 +67,8 @@ def getDirectionTime(coasterId, callerId):
   rotateTime = angle / rotationSpeed
   return rotateTime, forwardTime
 
-filename = 'input.txt'
-file = open(filename, "r")
+inputFile = 'C:\Users\Omar Areiqat\Documents\Serial_Output\com_COM9_COM9  (USB Serial Device (COM9)).log'
+file = open(inputFile, "r")
 file.readlines()
 
 

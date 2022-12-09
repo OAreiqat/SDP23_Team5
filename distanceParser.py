@@ -13,7 +13,7 @@ class tag:
     
 
   
-filename = '/home/omar/SDP/com_COM8_11_29_2022_160454.log'
+filename = "*\Documents\Serial_Output\com_COM8.log"
 tags = []
 
 
