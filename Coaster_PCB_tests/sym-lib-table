@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "dk_Diodes-Zener-Single")(type "Legacy")(uri "${KIPRJMOD}/Libraries/Zener_diode/dk_Diodes-Zener-Single.lib")(options "")(descr ""))
+  (lib (name "MCU_Module")(type "Legacy")(uri "${KIPRJMOD}/Libraries/MCU_Module/MCU_Module.lib")(options "")(descr ""))
+  (lib (name "Buggy_Components")(type "Legacy")(uri "${KIPRJMOD}/Libraries/Buggy_Components/Buggy_Components.lib")(options "")(descr ""))
+  (lib (name "RPi_Pico")(type "KiCad")(uri "${KIPRJMOD}/RPi_Pico.kicad_sym")(options "")(descr ""))
+)
