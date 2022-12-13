@@ -377,7 +377,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Team5_Coaster_post_mdr.kicad_pro",
+    "filename": "Team5_Coaster_post_mdr_100x100.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -437,7 +437,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "../../../KiCAD/6.0/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
