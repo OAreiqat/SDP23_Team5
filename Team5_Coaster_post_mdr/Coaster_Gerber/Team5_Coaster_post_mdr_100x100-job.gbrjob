@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "(6.0.9)"
     },
-    "CreationDate": "2022-12-13T13:02:29-05:00"
+    "CreationDate": "2022-12-13T13:26:20-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "Team5_Coaster_post_mdr",
+      "Name": "Team5_Coaster_post_mdr_100x100",
       "GUID": "5465616d-355f-4436-9f61-737465725f70",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 98.2194,
-      "Y": 120.105
+      "X": 96.7194,
+      "Y": 97.105
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "Team5_Coaster_post_mdr-F_Cu.gbr",
+      "Path": "Team5_Coaster_post_mdr_100x100-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Team5_Coaster_post_mdr-B_Cu.gbr",
+      "Path": "Team5_Coaster_post_mdr_100x100-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Team5_Coaster_post_mdr-F_Paste.gbr",
+      "Path": "Team5_Coaster_post_mdr_100x100-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Team5_Coaster_post_mdr-B_Paste.gbr",
+      "Path": "Team5_Coaster_post_mdr_100x100-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Team5_Coaster_post_mdr-F_Silkscreen.gbr",
+      "Path": "Team5_Coaster_post_mdr_100x100-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Team5_Coaster_post_mdr-B_Silkscreen.gbr",
+      "Path": "Team5_Coaster_post_mdr_100x100-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Team5_Coaster_post_mdr-F_Mask.gbr",
+      "Path": "Team5_Coaster_post_mdr_100x100-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Team5_Coaster_post_mdr-B_Mask.gbr",
+      "Path": "Team5_Coaster_post_mdr_100x100-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Team5_Coaster_post_mdr-Edge_Cuts.gbr",
+      "Path": "Team5_Coaster_post_mdr_100x100-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
