@@ -2605,7 +2605,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061de8224)
     (property "Reference" "J1" (id 0) (at 32.5628 32.385 0))
-    (property "Value" "XT60" (id 1) (at 32.5628 34.6964 0))
+    (property "Value" "Vin" (id 1) (at 30.48 35.56 0))
     (property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" (id 2) (at 30.48 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2905,7 +2905,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000628b996d)
     (property "Reference" "SW1" (id 0) (at 63.5 34.29 0))
-    (property "Value" "SW_SPDT" (id 1) (at 63.5 43.18 0)
+    (property "Value" "Vin_Switch" (id 1) (at 63.5 43.18 0)
       (effects (font (size 1.016 1.016)))
     )
     (property "Footprint" "Buggy_Footprints:1101M2S3CQE2" (id 2) (at 63.5 38.1 0)
@@ -3878,7 +3878,7 @@
       (reference "H4") (unit 1) (value "M") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
     )
     (path "/00000000-0000-0000-0000-000061de8224"
-      (reference "J1") (unit 1) (value "XT60") (footprint "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical")
+      (reference "J1") (unit 1) (value "Vin") (footprint "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical")
     )
     (path "/7bcc4302-a9ff-46a0-92cd-33fd1db4d7ac"
       (reference "J2") (unit 1) (value "HC-05") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
@@ -3938,7 +3938,7 @@
       (reference "RF1") (unit 1) (value "DRV8871") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-0000628b996d"
-      (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "Buggy_Footprints:1101M2S3CQE2")
+      (reference "SW1") (unit 1) (value "Vin_Switch") (footprint "Buggy_Footprints:1101M2S3CQE2")
     )
     (path "/d645b5a5-a402-4a08-b2d8-3b05e5bada03"
       (reference "U1") (unit 1) (value "PicoW") (footprint "RPi_Pico:RPi_PicoW_SMD_TH")
