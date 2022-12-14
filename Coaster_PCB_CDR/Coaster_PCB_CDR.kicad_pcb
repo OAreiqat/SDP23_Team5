@@ -3872,7 +3872,7 @@
 
   (footprint "Coaster_PCB_CDR:pic22" (layer "B.Cu")
     (tedit 0) (tstamp a3e33b10-5b0a-4f14-b608-3955e40b8700)
-    (at 91.25 129.5 180)
+    (at 94.49679 129.5 180)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "Qat" (at -0.367635 -2.54) (layer "User.6")
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -4719,7 +4719,7 @@
   (via (at 95.75 113.75) (size 0.65) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 4) (tstamp 7a10b66b-1032-4264-b5ed-2737984d2650))
   (via (at 121.25 121.5) (size 0.65) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 4) (tstamp 7a4bc022-b75c-4298-b915-0a20c5557125))
   (via (at 126.5 80.25) (size 0.65) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 4) (tstamp 7ccc6f02-1224-4143-9687-cf57690227b5))
-  (via (at 101.75 120.75) (size 0.65) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 4) (tstamp 7da67262-5263-44ed-b472-6950f65233af))
+  (via (at 103 121) (size 0.65) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 4) (tstamp 7da67262-5263-44ed-b472-6950f65233af))
   (via (at 130 81) (size 0.65) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 4) (tstamp 7efb6717-71c8-4147-bb97-c4717158a381))
   (via (at 139 108) (size 0.65) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 4) (tstamp 7f9c8442-8b11-4a44-ba3b-775eed0a734b))
   (via (at 139.75 150) (size 0.65) (drill 0.3) (layers "F.Cu" "B.Cu") (free) (net 4) (tstamp 7fcdadf7-d0f4-465c-ab67-2a5654678389))
