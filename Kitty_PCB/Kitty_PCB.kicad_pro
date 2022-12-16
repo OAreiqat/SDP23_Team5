@@ -409,16 +409,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "signal",
-        "nets": [
-          "LB1",
-          "LB2",
-          "LF1",
-          "LF2",
-          "RB1",
-          "RB2",
-          "RF1",
-          "RF2"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
