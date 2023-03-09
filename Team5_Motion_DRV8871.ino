@@ -11,16 +11,15 @@
 #define RB_F 19
 #define RB_B 18
 
-SoftwareSerial Bluetooth(16, 17); // Arduino(RX, TX) - HC-05 Bluetooth (TX, RX)
+SoftwareSerial hc05(16, 17); // Arduino(RX, TX) - HC-05 hc05 (TX, RX)
 
-int wheelSpeed = 1500;
-
+int wheelSpeed = 50;
 int dataIn, m;
 
 void setup() {
 	Serial.begin(9600);
-	Bluetooth.begin(9600); // Default baud rate of the Bluetooth module
-	Bluetooth.setTimeout(1);
+	hc05.begin(9600); // Default baud rate of the hc05 module
+	hc05.setTimeout(1);
 	delay(20);
 	pinMode(RF_F, OUTPUT);
 	pinMode(RF_B, OUTPUT);
@@ -30,6 +29,7 @@ void setup() {
 	pinMode(LF_B, OUTPUT);
 	pinMode(LB_F, OUTPUT);
 	pinMode(LB_B, OUTPUT);
+  analogWriteFreq(32000);
 }
 
 
@@ -38,26 +38,18 @@ void setup() {
 void loop() {
   // Check for incoming data
 
-  if (Bluetooth.available() > 0) {
-    dataIn = Bluetooth.read();  // Read the data
+  if (hc05.available() > 0) {
+    dataIn = hc05.read();  // Read the data
     Serial.println(dataIn);
-    if(dataIn < 15) m = dataIn
-  }
+    delay(10);
+    if(dataIn < 15) m = dataIn;
+  
     // Update speed // to be tested 
     if (dataIn >= 16) {
-      wheelSpeed = map(dataIn, 16, 255, 0 , 255); // Map the potentiometer value from 0 to 255
-      // Serial.println(wheelSpeed);
-      // analogWrite(LF_F, wheelSpeed); 
-      // analogWrite(LF_B, wheelSpeed); 
-      // analogWrite(RF_F, wheelSpeed); 
-      // analogWrite(RF_B, wheelSpeed); 
-      // analogWrite(LB_F, wheelSpeed); 
-      // analogWrite(LB_B, wheelSpeed); 
-      // analogWrite(RB_F, wheelSpeed); 
-      // analogWrite(RB_B, wheelSpeed); 
-	
+      wheelSpeed = map(dataIn, 16, 255, 0 , 255); // Map  value from 0 to 255	
     }
   }
+  
   switch(m) {
     case 0:
       stopMoving();         break;
@@ -82,6 +74,7 @@ void loop() {
     case 10:
       rotateRight();        break;
   }
+}
 
 void moveForward() {
   //RF Forward
