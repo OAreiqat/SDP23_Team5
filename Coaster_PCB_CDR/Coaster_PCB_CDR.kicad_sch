@@ -1081,7 +1081,6 @@
   (no_connect (at 105.41 120.65) (uuid 7f419a88-7708-4415-900c-9055024e6b10))
   (no_connect (at 92.71 146.05) (uuid 86c2896b-b63d-4a47-a0e1-b6b5eb66a682))
   (no_connect (at 69.85 107.95) (uuid 91d10395-b2b6-4297-9da8-7b785260714a))
-  (no_connect (at 157.48 45.72) (uuid ac24e72a-c258-40dd-b19f-8c167c51fffb))
   (no_connect (at 69.85 95.25) (uuid b893e49f-db83-4aef-a651-301b35612839))
   (no_connect (at 69.85 120.65) (uuid c2eb0851-698e-4a77-9407-99b5531779a7))
   (no_connect (at 69.85 102.87) (uuid d3b40492-4f86-4167-8cfb-c676ea831b5b))
@@ -2344,7 +2343,7 @@
   (symbol (lib_id "power:VCC") (at 115.57 69.85 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 063f345a-19ea-4ed8-80b8-783a54b6fa7f)
-    (property "Reference" "#PWR?" (id 0) (at 115.57 73.66 0)
+    (property "Reference" "#PWR012" (id 0) (at 115.57 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 115.951 65.4558 0))
@@ -2686,7 +2685,7 @@
   (symbol (lib_id "power:VCC") (at 125.73 72.39 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6eb3d3e5-da36-4c31-8065-757a665f317f)
-    (property "Reference" "#PWR?" (id 0) (at 125.73 76.2 0)
+    (property "Reference" "#PWR014" (id 0) (at 125.73 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 126.111 67.9958 0))
@@ -2819,28 +2818,10 @@
     (pin "2" (uuid 93d90596-7379-4714-b05a-341470ea6ac5))
   )
 
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 157.48 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 905ac481-2e05-485f-84fb-07a229113aa2)
-    (property "Reference" "H4" (id 0) (at 160.02 41.9354 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M" (id 1) (at 160.02 44.2468 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via" (id 2) (at 157.48 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 157.48 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c589550a-7c16-48bb-9e1a-cfa67d563295))
-  )
-
   (symbol (lib_id "Switch:SW_SPDT") (at 120.65 72.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 99a8fb31-698e-4131-b333-0fa200c7a254)
-    (property "Reference" "SW?" (id 0) (at 120.65 68.58 0))
+    (property "Reference" "SW3" (id 0) (at 120.65 68.58 0))
     (property "Value" "Vin_Switch" (id 1) (at 120.65 77.47 0)
       (effects (font (size 1.016 1.016)))
     )
@@ -3026,7 +3007,7 @@
   (symbol (lib_id "power:VCC") (at 115.57 74.93 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid b2ade3fd-2273-46a7-8cfb-1c6f876f500e)
-    (property "Reference" "#PWR?" (id 0) (at 115.57 78.74 0)
+    (property "Reference" "#PWR013" (id 0) (at 115.57 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 115.951 70.5358 0))
@@ -3296,6 +3277,15 @@
     (path "/1d8bb3e3-ec85-484f-bb27-ebf6275d494e"
       (reference "#PWR011") (unit 1) (value "VCC") (footprint "")
     )
+    (path "/063f345a-19ea-4ed8-80b8-783a54b6fa7f"
+      (reference "#PWR012") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/b2ade3fd-2273-46a7-8cfb-1c6f876f500e"
+      (reference "#PWR013") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/6eb3d3e5-da36-4c31-8065-757a665f317f"
+      (reference "#PWR014") (unit 1) (value "VCC") (footprint "")
+    )
     (path "/abbae294-41f6-434e-be53-e2053185df61"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -3377,15 +3367,6 @@
     (path "/b7f6b5cb-1a34-4eb9-96f7-0f96c81b2ece"
       (reference "#PWR0131") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/063f345a-19ea-4ed8-80b8-783a54b6fa7f"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/6eb3d3e5-da36-4c31-8065-757a665f317f"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/b2ade3fd-2273-46a7-8cfb-1c6f876f500e"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000061dd9ea3"
       (reference "C1") (unit 1) (value "2200uF") (footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
     )
@@ -3406,9 +3387,6 @@
     )
     (path "/00000000-0000-0000-0000-000061e15c74"
       (reference "H3") (unit 1) (value "M") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
-    )
-    (path "/905ac481-2e05-485f-84fb-07a229113aa2"
-      (reference "H4") (unit 1) (value "M") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
     )
     (path "/00000000-0000-0000-0000-000061de8224"
       (reference "J1") (unit 1) (value "Vin") (footprint "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical")
@@ -3477,7 +3455,7 @@
       (reference "SW2") (unit 1) (value "Vin_Switch") (footprint "Buggy_Footprints:omar_3pin_switch")
     )
     (path "/99a8fb31-698e-4131-b333-0fa200c7a254"
-      (reference "SW?") (unit 1) (value "Vin_Switch") (footprint "Buggy_Footprints:omar_3pin_switch")
+      (reference "SW3") (unit 1) (value "Vin_Switch") (footprint "Buggy_Footprints:omar_3pin_switch")
     )
     (path "/d645b5a5-a402-4a08-b2d8-3b05e5bada03"
       (reference "U1") (unit 1) (value "PicoW") (footprint "RPi_Pico:RPi_PicoW_SMD_TH")
