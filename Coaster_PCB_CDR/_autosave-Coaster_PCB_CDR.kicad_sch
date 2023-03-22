@@ -2476,7 +2476,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 113.03 127 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 406bc657-f0d9-4cdc-a558-cd9bffd22dd4)
-    (property "Reference" "J?" (id 0) (at 115.062 123.7488 90)
+    (property "Reference" "J7" (id 0) (at 115.062 123.7488 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VCC_Batt" (id 1) (at 109.22 129.54 90)
@@ -3278,6 +3278,9 @@
     (path "/133df20d-c5a1-44db-81a8-158b37b8bc9a"
       (reference "J6") (unit 1) (value "Vin") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
     )
+    (path "/406bc657-f0d9-4cdc-a558-cd9bffd22dd4"
+      (reference "J7") (unit 1) (value "VCC_Batt") (footprint "TestPoint:TestPoint_Plated_Hole_D5.0mm")
+    )
     (path "/b089b932-0298-427a-aba2-da43d5ed2ba2"
       (reference "J8") (unit 1) (value "GPIO_0-1") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
     )
@@ -3301,9 +3304,6 @@
     )
     (path "/67fedbbb-6b91-4729-922d-f819594419f9"
       (reference "J19") (unit 1) (value "5v") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
-    )
-    (path "/406bc657-f0d9-4cdc-a558-cd9bffd22dd4"
-      (reference "J?") (unit 1) (value "VCC_Batt") (footprint "TestPoint:TestPoint_Plated_Hole_D5.0mm")
     )
     (path "/00000000-0000-0000-0000-000061d32985"
       (reference "LB1") (unit 1) (value "DRV8871") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
